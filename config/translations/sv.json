@@ -1,0 +1,10 @@
+{
+  "egfr.type.long.cys-c": "Cys-C Relativt (ml/min/1,73m2)",
+  "egfr.type.long.krea": "Krea Relativt (ml/min/1,73m2)",
+  "egfr.type.long.average": "Medelvärde Relativt (ml/min/1,73m2)",
+  "egfr.type.long.chosen": "Valt absolut eGFR (ml/min)",
+  "egfr.type.short.cys-c": "Cys-C Relativt",
+  "egfr.type.short.krea": "Krea Relativt",
+  "egfr.type.short.average": "Medelvärde Relativt",
+  "egfr.type.short.chosen": "Valt absolut eGFR"
+}

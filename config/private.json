@@ -1,0 +1,26 @@
+{
+  "proxies": [{
+      "context": "/pep-rest",
+      "host": "pep.pspace.se",
+      "changeOrigin": true,
+      "rewrite": {
+        "^/pep-rest/": "/pep-rest/"
+      }
+    },
+    {
+      "context": "/admin",
+      "host": "pep.pspace.se",
+      "changeOrigin": true,
+      "rewrite": {
+        "^/admin/": "/admin/"
+      }
+    },
+    {
+      "context": "/drug-data",
+      "host": "janustest.sll.se",
+      "rewrite": {
+        "^/drug-data": "/ddb/drug-data"
+      }
+    }
+  ]
+}

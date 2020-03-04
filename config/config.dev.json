@@ -1,0 +1,47 @@
+{
+  "translationModules": ["se.sll.hsf.ng-commons.translations", "njuren-ui.translations"],
+  "useMockData": true,
+    
+  "elasticHost": "http://njuren-elastic.northeurope.cloudapp.azure.com:9200",
+  
+  "version": "1.1.8",
+  "updatedDate": "2019-04-15",
+    
+  "mailTo": true,
+  "devEnabled": true,
+  "aboutLink_prod": false,
+  "wordpress_visible": false,
+  
+  "njurenws": {
+  	"host" : "https://janusmedtest.sll.se/api/gui/",
+	"path" : {
+		"calculateRelEgfr" : "egfr/calculations/calculate",
+		"calculateAbsEgfr" : "egfr/calculations/abs",
+		"bmiArea" : "bmi-area/",
+		"documents" : "njuren/documents/",
+        "comments" : "comment/send",
+        "betaFeedback": "comment/sendbeta"
+	}
+  },
+    
+  "analyticsnjuren": {
+    "id": "UA-105305361-2",
+    "enabled": true,
+    "host": "https://janusmedtest.sll.se/njurfunktion"
+  },
+    
+  "analyticsjmi": {
+    "id": "UA-105305361-1",
+    "enabled": true,
+    "host": "https://janusmedtest.sll.se/njurfunktion",
+    "name": "jmi"
+  },
+    
+  "jf": {
+	"host": "http://localhost:9000/drug-data"
+  },
+       
+  "wordpress_texts": {
+    "host": "https://janusmedtest.sll.se/wordpress/wp-json/wp/v2/"
+  }
+}
